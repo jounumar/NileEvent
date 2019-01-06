@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "E";
 /////////////////////////
 ////////////////////////
 
@@ -313,7 +313,7 @@ function play(guild, song) {
 
 
 client.on('message', message => {
-    if (message.content === '1help') {
+    if (message.content === 'Ehelp') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت (4)**')
@@ -328,7 +328,7 @@ client.on('message', message => {
     }
 });
 
-const adminprefix = "1";
+const adminprefix = "E";
 const devs = ['464281817839828992'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -360,7 +360,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Diamond Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Nile Server | 1help `)//حقوق دايموند كودز
+client.user.setGame(`Nile Server | Ehelp `)//حقوق دايموند كودز
 client.user.setStatus("online")
 });
 
