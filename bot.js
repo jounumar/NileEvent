@@ -274,7 +274,7 @@ KiNg66S.on('message', message => {
   if (!message.content.startsWith(PREFIX)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "399353508429824000") return;
+  if (message.author.id !== "464281817839828992") return;
 
   
   if (message.content.startsWith(PREFIX + 'sw')) {
